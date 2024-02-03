@@ -61,3 +61,12 @@ input:focus,
 textarea:focus {
   border: 2px solid #06b6d4;
 }
+@media (max-width: 800px) {
+  h1 {
+    font-size: 25px;
+  }
+  input,
+  textarea {
+    font-size: 16px;
+  }
+}

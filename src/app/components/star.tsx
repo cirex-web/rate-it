@@ -1,5 +1,5 @@
 import { useState } from "react";
-import StarRatings from "react-star-ratings";
+// import StarRatings from "react-star-ratings";
 
 // <ReactStars
 //         count={5}

@@ -3196,7 +3196,7 @@ export default function Home() {
             })}
         </div>
       ) : (
-        <h2>Loading...</h2>
+        <h2 style={{ marginTop: "30px" }}>Loading...</h2>
       )}
     </main>
   );

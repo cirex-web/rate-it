@@ -10,9 +10,16 @@
   justify-content: center;
   align-items: center;
 }
+
 .panel {
   background-color: white;
   padding: 30px 50px;
   border: 2px solid rgb(171, 175, 179);
   border-radius: 10px;
+}
+@media (max-width: 800px) {
+  .panel {
+    margin: 0 10px;
+    padding: 20px 20px;
+  }
 }

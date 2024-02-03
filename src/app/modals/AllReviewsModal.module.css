@@ -15,13 +15,13 @@
   display: flex;
   flex-direction: column;
   overflow-wrap: anywhere;
-  gap: 30px;
 }
 .ratings {
   display: grid;
   margin-top: 50px;
   max-height: 400px;
   overflow: auto;
+  gap: 30px;
 }
 @media (min-width: 700px) {
   .ratings {
